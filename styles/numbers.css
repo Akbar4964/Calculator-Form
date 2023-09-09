@@ -26,10 +26,22 @@
   cursor: pointer;
 }
 
-.calc-zero-equal{
-    display: flex;
-    align-items: center;
-    padding-top: 25px;
+.calc-zero-equal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 25px;
 }
 
-.calc-zero>button{}
+.calc-zero > button {
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Roboto";
+  border: 0;
+  border-radius: 20px;
+  color: steelblue;
+  background-color: yellow;
+  cursor: pointer;
+}
