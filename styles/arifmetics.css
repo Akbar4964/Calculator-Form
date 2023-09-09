@@ -83,3 +83,9 @@
   background-color: inherit;
   cursor: pointer;
 }
+
+.calc-percentage-comma{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
