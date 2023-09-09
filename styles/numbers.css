@@ -9,8 +9,8 @@
 .calc-one {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  gap: 7px;
+  padding-top: 20px;
+  gap: 10px;
 }
 
 .calc-one > button {
