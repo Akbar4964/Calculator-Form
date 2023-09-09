@@ -2,6 +2,17 @@
   display: flex;
 }
 
+.calc-numbers {
+  padding: 0 25px;
+}
+
+.calc-one {
+  display: flex;
+  align-items: center;
+  padding-top: 25px;
+  gap: 7px;
+}
+
 .calc-one > button {
   width: 60px;
   height: 60px;
