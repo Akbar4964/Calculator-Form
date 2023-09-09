@@ -62,3 +62,10 @@
   background-color: tomato;
   cursor: pointer;
 }
+
+.calc-plus-minus {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 20px;
+}
