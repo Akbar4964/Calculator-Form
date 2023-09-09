@@ -1,7 +1,19 @@
 .calc-arifmetics {
   padding-top: 20px;
+  padding-right: 25px;
 }
 
 .calc-reset-backspace {
   display: flex;
+  gap: 15px;
+}
+
+.calc-reset > button {
+  width: 55px;
+  height: 60px;
+}
+
+.calc-backspace > button {
+  width: 55px;
+  height: 60px;
 }
