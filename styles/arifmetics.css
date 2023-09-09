@@ -38,3 +38,15 @@
   padding-top: 20px;
   gap: 15px;
 }
+
+.calc-increase > button {
+  width: 55px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Roboto";
+  border: 0;
+  border-radius: 10px;
+  background-color: blue;
+  cursor: pointer;
+}
