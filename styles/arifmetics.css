@@ -47,6 +47,18 @@
   font-family: "Roboto";
   border: 0;
   border-radius: 10px;
-  background-color: blue;
+  background-color: orange;
+  cursor: pointer;
+}
+
+.calc-decrease > button {
+  width: 55px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Roboto";
+  border: 0;
+  border-radius: 10px;
+  background-color: tomato;
   cursor: pointer;
 }
