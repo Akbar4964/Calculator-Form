@@ -11,7 +11,7 @@
 }
 
 .calculator {
-  background-image: url(/assets/img/calc-wallpaper.jpg);
+  background-image: url(/assets/img/dark5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -29,6 +29,27 @@
   border-radius: 20px;
   backdrop-filter: blur(5px);
   box-shadow: inset 0 0 10px magenta;
+  animation-name: calc-body;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes calc-body {
+  0% {
+    box-shadow: inset 0 0 10px magenta;
+  }
+  25% {
+    box-shadow: inset 0 0 10px steelblue;
+  }
+  50% {
+    box-shadow: inset 0 0 10px aqua;
+  }
+  75% {
+    box-shadow: inset 0 0 10px greenyellow;
+  }
+  100% {
+    box-shadow: inset 0 0 10px magenta;
+  }
 }
 
 .calc-screen {
