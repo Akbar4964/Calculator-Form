@@ -11,8 +11,20 @@
 }
 
 .calculator {
+  background-image: url(/assets/img/calc-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.calc-count {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-top: 7%;
+  padding-top: 10%;
+}
+
+.calculator-body {
+  width: 400px;
+  height: 500px;
+  border: 1px solid #fff;
 }
