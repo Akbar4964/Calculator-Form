@@ -18,7 +18,7 @@
 }
 
 .calculator-body {
-  width: 350px;
+  width: 370px;
   height: 550px;
   border: 5px solid darkcyan;
   border-radius: 44px;
@@ -26,10 +26,10 @@
 }
 
 .screen {
-  width: 315px;
+  width: 320px;
   height: 80px;
   margin-top: 70px;
-  margin-left: 20px;
+  margin-left: 15px;
   display: flex;
   align-items: center;
   justify-content: end;
