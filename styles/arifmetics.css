@@ -78,3 +78,14 @@
   background-color: indigo;
   cursor: pointer;
 }
+
+.calc-minus > button {
+  width: 60px;
+  height: 40px;
+  font-size: 30px;
+  font-weight: 300;
+  border: 0;
+  border-radius: 10px;
+  background-color: darkgreen;
+  cursor: pointer;
+}
