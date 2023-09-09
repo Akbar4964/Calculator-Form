@@ -25,3 +25,11 @@
   background-color: steelblue;
   cursor: pointer;
 }
+
+.calc-zero-equal{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.calc-zero>button{}
