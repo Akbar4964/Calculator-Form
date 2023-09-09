@@ -66,7 +66,7 @@
 .calc-plus-minus {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
   padding-top: 30px;
 }
 
@@ -90,6 +90,7 @@
   display: flex;
   align-items: center;
   padding-top: 35px;
+  gap: 5px;
 }
 
 .calc-percentage > button {
@@ -101,5 +102,17 @@
   border-radius: 50%;
   color: darksalmon;
   background-color: purple;
+  cursor: pointer;
+}
+
+.calc-comma > button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 0;
+  border-radius: 50%;
+  color: purple;
+  background-color: darksalmon;
   cursor: pointer;
 }
