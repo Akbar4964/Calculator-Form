@@ -31,3 +31,10 @@
   background-color: teal;
   cursor: pointer;
 }
+
+.calc-increase-decrease {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  gap: 15px;
+}
