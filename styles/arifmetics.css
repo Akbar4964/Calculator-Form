@@ -5,12 +5,21 @@
 
 .calc-reset-backspace {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 
 .calc-reset > button {
   width: 55px;
   height: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Roboto";
+  border: 0;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: teal;
+  cursor: pointer;
 }
 
 .calc-backspace > button {
